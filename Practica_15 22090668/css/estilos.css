@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.section {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.problema {
+    background-color: #f8d7da;
+}
+
+.imagen {
+    background-color: #d1ecf1;
+}
+
+.datos {
+    background-color: #d4edda;
+}
+
+.formulas {
+    background-color: #fff3cd;
+}
+
+.solucion {
+    background-color: #b2ebf2e5;
+}
+
+.resultado {
+    background-color: #ce93d8;
+}
+
+.section h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    text-align: center;
+    padding: 5px;
+}
